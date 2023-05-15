@@ -10,6 +10,8 @@ import { CommonModule } from '@angular/common';
       details works!
       this is more information
       lets add a little more stuff right here
+
+
     </p>
   `,
   styleUrls: ['./details.component.css'],
