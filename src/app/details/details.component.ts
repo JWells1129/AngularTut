@@ -8,6 +8,7 @@ import { CommonModule } from '@angular/common';
   template: `
     <p>
       details works!
+      this is more information
     </p>
   `,
   styleUrls: ['./details.component.css'],
