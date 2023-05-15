@@ -6,10 +6,11 @@
     "\\e2e\\src",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\details",
     "\\src\\app\\home",
     "\\src\\app\\housing-location",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\app.component.css",
+  "SelectedNode": "\\src\\app\\home\\home.component.ts",
   "PreviewInSolutionExplorer": false
 }
