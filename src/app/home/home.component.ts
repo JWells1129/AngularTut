@@ -5,12 +5,14 @@ import { HousingLocation } from '../housinglocation';
 import { HousingService } from '../housing.service';
 
 @Component({
+
   selector: 'app-home',
   standalone: true,
   imports: [
     CommonModule,
     HousingLocationComponent
   ],
+
   template: `
     <section>
       <form>
@@ -29,13 +31,16 @@ import { HousingService } from '../housing.service';
 })
 
 export class HomeComponent {
+
   housingLocationList: HousingLocation[] = [];
   housingService: HousingService = inject(HousingService);
   filteredLocationList: HousingLocation[] = [];
+    
   constructor() {
     this.housingLocationList = this.housingService.getAllHousingLocations();
     this.filteredLocationList = this.housingLocationList;
   }
+
   filterResults(text: string) {
     if (!text) {
       this.filteredLocationList = this.housingLocationList;
